@@ -1,0 +1,162 @@
+* {
+    position: relative;
+    width: 320px;
+    height: 2171px;
+
+    background: #E95C41;
+}
+
+
+.header {
+    width: 118px;
+    height: 38px;
+
+    font-family: 'Vampiro One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+
+
+    color: #391401;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+.bio {
+    width: 80px;
+    height: 24px;
+    /* text-align: center; */
+    padding-left: 160px;
+    padding-right: 160px;
+    border-radius: 0px;
+    border-width: 0.2px;
+    border-right: 3px;
+    border-style: solid;
+    border-color: #391401;
+    /* margin-left: 50px; */
+
+
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #391401;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.image-monkey {
+    position: absolute;
+    width: 238px;
+    height: 242px;
+    left: calc(50% - 238px/2 - 3px);
+    top: 298px;
+
+
+}
+
+.separator {
+    position: absolute;
+    height: 24px;
+    left: 0px;
+    right: 20px;
+    top: 533px;
+    padding-right: 80px;
+
+    background: #5C5D70;
+}
+
+.content-1 {
+    position: absolute;
+    width: 320px;
+    height: 94px;
+    left: calc(50% - 253px/2 - 0.5px);
+    top: 597px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    /* or 48px */
+
+    text-align: center;
+    letter-spacing: -0.05em;
+
+    color: #391401;
+
+}
+
+.white {
+    color: aliceblue;
+}
+
+#content1 {
+    position: absolute;
+    width: 320px;
+    height: 104px;
+    left: calc(50% - 288px/2);
+    top: 731px;
+    margin-left: 20px;
+
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+
+    text-align: center;
+
+    color: #391401;
+}
+
+.separator-2 {
+    position: absolute;
+    height: 1px;
+    left: 0px;
+    right: 20px;
+    top: 875px;
+    padding-right: 80px;
+
+    background: #391401;
+}
+
+.content-3{
+    position: absolute;
+width: 320px;
+height: 24px;
+left: calc(50% - 228px/2 - 1px);
+top: 916px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+/* identical to box height, or 24px */
+padding-right: 80px;
+
+letter-spacing: -0.03em;
+
+color: #391401;
+
+}
